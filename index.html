@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video</title>
+	 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=PT+Sans&family=VT323&family=Roboto&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<div id="hero">
+
+<div class="texture">
+	
+</div>
+
+<video loop muted autoplay>
+	<source src="0.mp4" type="video/mp4">
+	Your browser does not support the video tag
+</video>
+<div class="caption">
+	<h2>Welcome!</h2>
+	<h1>I am <b>Ahsen</b></h1>
+	<h2 class="title">Data & Software Engineer</h2>
+	<br/>
+	<h2>
+		<i class="fa fa-linkedin" onclick="navigate('linkedin')"></i>
+		<i class="fa fa-facebook" onclick="navigate('facebook')"></i>
+		<i class="fa fa-twitter" onclick="navigate('twitter')"></i>
+		<i class="fa fa-github" onclick="navigate('github')"></i>
+	</h2>
+</div>
+
+
+	
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+	function navigate(icon)
+	{
+		var link = 'https://www.';
+		if(icon =='facebook')
+			link += 'facebook.com/acen20';
+		else if (icon=="github")
+			link += 'github.com/acen20';
+		else if (icon=='linkedin')
+			link += 'linkedin.com/in/ahsen-nazir10';
+		else
+			link += 'facebook.com/acen20';
+		window.open(link, '_blank');
+	}
+</script>

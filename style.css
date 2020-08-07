@@ -1,0 +1,92 @@
+#hero{
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#hero::after{
+	width: 100%;
+	height: 100%;
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	background-color: rgba(0, 28, 33, 0.7);
+	z-index: 10;
+}
+
+
+
+#hero .texture{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	z-index: 15;
+	position: absolute;
+	background:url('fake-brick.png');
+}
+
+#hero video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 5;
+	object-fit: cover;
+}
+
+#hero .caption{
+	position: relative;
+	z-index: 20;
+	text-align: center;
+	color:white;
+}
+
+
+
+
+#hero .caption h1{
+	text-transform: uppercase;
+	font-size: 2em;
+	font-family: 'oswald', sans-serif;
+	margin-bottom: 0.5rem;
+}
+
+#hero .caption h2{
+	font-weight: 400;
+	font-family: 'pt sans', sans-serif;
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+#hero .caption .title{
+	padding-left:2px;
+	font-family: vt323;
+	font-size: 2rem
+}
+
+
+h2 i{
+	cursor:pointer;
+
+}
+
+
+@media screen and (min-width: 768px){
+	#hero .caption h1{
+		font-size: 2.5rem;
+	}
+
+	#hero .caption h2{
+		font-size: 1.75rem;
+	}
+}
+
+
+h2 i{
+	margin-right: 1em
+}

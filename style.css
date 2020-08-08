@@ -183,10 +183,11 @@ h4 i{
 }
 
 .underconstruction{
-	font-family: oswald;
+	font-family: roboto;
 	text-align:center;
-	font-size: 64px;
-	
+	font-size: 32px;
+	color: dimgray
+
 }
 
 

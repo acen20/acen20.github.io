@@ -163,7 +163,14 @@ h4 i{
 	align-items: center;
 	padding: 20px;
 	margin: 20px;
+	cursor: pointer;
 }
+
+.tile:hover{
+	background-color: royalblue
+}
+
+
 
 .tile h1{
 	font-family: 'roboto slab';
@@ -175,6 +182,20 @@ h4 i{
 
 }
 
+.underconstruction{
+	font-family: oswald;
+	text-align:center;
+	font-size: 64px;
+	
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.stats-container{
+		flex-direction: column;
+	}
+}
 
 
 

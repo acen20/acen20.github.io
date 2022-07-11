@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY AI DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop optimal AI solutions for Static / Computer Vision / NLP applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Use state-of-the-art (SOTA) architectures "),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Deployment of models on cloud platforms such as Heroku / Azure"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 

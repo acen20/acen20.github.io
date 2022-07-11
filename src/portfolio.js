@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Shehwar",
-  title: "Hi, I'm Shehwar",
+  username: "Ahsen",
+  title: "Hi, I'm Ahsen",
   subTitle: emoji(
-    "Passionate front-end developer who loves to create real-world web applications that can impact user's life.  I have expertise in JavaScript ( ES5 ES6 ), React.Js, CSS Frameworks, and version control systems.   I strongly feel that my previous work experiences have equipped me with skills that I can effectively offer to any Web Development team. 🚀"
+    "Passionate AI developer having experience in developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks.
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button

@@ -56,7 +56,7 @@ const skillsSection = {
     ),
     emoji("⚡ Use state-of-the-art (SOTA) architectures "),
     emoji(
-      "⚡ Deployment of models on cloud platforms such as Heroku / Azure"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 

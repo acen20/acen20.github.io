@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY AI DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop optimal AI solutions for Static / Computer Vision / NLP applications"
+      "⚡ Build and train optimal AI models for Computer Vision / Static / NLP applications"
     ),
-    emoji("⚡ Use state-of-the-art (SOTA) architectures "),
+    emoji("⚡ Use state-of-the-art (SOTA) deep architectures "),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Deployment of AI models on Heroku / Azure"
     )
   ],
 
@@ -65,37 +65,45 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "pytorch",
+      fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "numpy",
+      fontAwesomeClassname: "fas fa-cube"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "pandas",
+      fontAwesomeClassname: "fas fa-grip-lines-vertical"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "matplotlib",
+      fontAwesomeClassname: "fas fa-chart-pie"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "torchvision",
+      fontAwesomeClassname: "fas fa-eye"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "torchaudio",
+      fontAwesomeClassname: "fas fa-assistive-listening-systems"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "cuda",
+      fontAwesomeClassname: "fas fa-microchip"
     },
+    {
+      skillName: "scikit-learn",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },  
+    {
+      skillName: "jupyter-notebook",
+      fontAwesomeClassname: "fas fa-book"
+    }, 
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -105,12 +113,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "django",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-adn"
+    },
+    {
+      skillName: "heroku",
+      fontAwesomeClassname: "fas fa-h-square"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },	
+    {
+      skillName: "colab",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "kaggle",
+      fontAwesomeClassname: "fab fa-kaggle"
+    },
+    {
+      skillName: "wandb",
+      fontAwesomeClassname: "fas fa-braille"
     },
     {
       skillName: "docker",
@@ -126,8 +154,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Pakistan Institute of Engineering and Applied Sciences (PIEAS)",
+      logo: require("./assets/images/pieas.jpg"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
@@ -137,8 +165,8 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Bahria University",
+      logo: require("./assets/images/bahria.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -321,7 +349,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -340,7 +368,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,7 +381,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -367,7 +395,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "ahsen_nazir", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

@@ -54,7 +54,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop optimal AI solutions for Static / Computer Vision / NLP applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Use state-of-the-art (SOTA) architectures "),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )

@@ -55,9 +55,7 @@ const skillsSection = {
       "⚡ Build and train optimal AI models for Computer Vision / Static / NLP applications"
     ),
     emoji("⚡ Use state-of-the-art (SOTA) deep architectures "),
-    emoji(
-      "⚡ Deployment of AI models on Heroku / Azure"
-    )
+    emoji("⚡ Deployment of AI models on Heroku / Azure")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -99,11 +97,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "scikit-learn",
       fontAwesomeClassname: "fas fa-chart-bar"
-    },  
+    },
     {
       skillName: "jupyter-notebook",
       fontAwesomeClassname: "fas fa-book"
-    }, 
+    },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -127,7 +125,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "linux",
       fontAwesomeClassname: "fab fa-linux"
-    },	
+    },
     {
       skillName: "colab",
       fontAwesomeClassname: "fab fa-google"
@@ -154,7 +152,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Pakistan Institute of Engineering and Applied Sciences (PIEAS)",
+      schoolName:
+        "Pakistan Institute of Engineering and Applied Sciences (PIEAS)",
       logo: require("./assets/images/pieas.jpg"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
@@ -166,7 +165,7 @@ const educationInfo = {
     },
     {
       schoolName: "Bahria University",
-      logo: require("./assets/images/bahria.png"),
+      logo: require("./assets/images/bahria.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",

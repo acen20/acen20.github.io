@@ -20,23 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ahsen",
-  title: "Hi, I'm Ahsen",
-  subTitle: emoji("Passionate AI developer having experience in developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  username: "Saad Pasta",
+  title: "Hi all, I'm Saad",
+  subTitle: emoji(
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  ),
+  resumeLink:
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/acen20",
-  linkedin: "https://www.linkedin.com/in/ahsen-nazir10/",
-  gmail: "ahsenmailbox@gmail.com",
-  gitlab: "https://www.gitlab.com/acen20",
-  facebook: "https://www.facebook.com/acen20",
-  medium: "https://medium.com/@ahsen1330",
-  stackoverflow: "https://stackoverflow.com/users/13940093/ahsen-nazir",
+  github: "https://github.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "saadpasta70@gmail.com",
+  gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@saadpasta",
+  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -46,11 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate AI Developer who loves to explore!",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop optimal AI solutions for Static / Computer Vision / NLP applications"),
-    emoji("⚡ Use modern deep architectures"),
-    emoji("⚡ Deployment of models on cloud platforms such as Heroku / Azure")
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    ),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji(
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -77,7 +84,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -112,24 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of Gujrat",
-      logo: require("./assets/images/UOGLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "Oct 2015 - Nov 2019",
-      desc: "",
+      schoolName: "Harvard University",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "September 2017 - April 2019",
+      desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "CGPA 3.37 / 4",
-        "Major Courses include Website Development, Android Development, Aritificial Intelligence and Digital Image Processing",
-        "Final Year Project: Currency Detection and Classification Android App using Machine Learning"
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Punjab Group of Colleges",
-      logo: require("./assets/images/pgclogo.png"),
-      subHeader: "Fsc Pre-Engineering",
-      duration: "September 2013 - August 2015",
-      desc: "",
-      descBullets: ["A Grade"]
+      schoolName: "Stanford University",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -140,16 +153,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "JavaScript", //Insert stack or technology you have experience in
-      progressPercentage: "97%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "React.Js",
-      progressPercentage: "96%"
+      Stack: "Backend",
+      progressPercentage: "70%"
     },
     {
-      Stack: "CSS Frameworks",
-      progressPercentage: "90%"
+      Stack: "Programming",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -241,7 +254,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be select as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
@@ -327,7 +340,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -340,22 +353,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "",
-  email_address: "Shehwar.dev@gmail.com"
+  number: "+92-0000000000",
+  email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 export {

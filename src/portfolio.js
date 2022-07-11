@@ -22,11 +22,8 @@ const illustration = {
 const greeting = {
   username: "Ahsen",
   title: "Hi, I'm Ahsen",
-  subTitle: emoji(
-    "Passionate AI developer having experience in developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  subTitle: emoji("Passionate AI developer having experience in developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,13 +48,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Passionate AI Developer who loves to explore!",
   skills: [
-    emoji(
-      "⚡ Develop optimal AI solutions for Static / Computer Vision / NLP applications"
-    ),
+    emoji("⚡ Develop optimal AI solutions for Static / Computer Vision / NLP applications"),
     emoji("⚡ Use modern deep architectures"),
-    emoji(
-      "⚡ Deployment of models on cloud platforms such as Heroku / Azure "
-    )
+    emoji("⚡ Deployment of models on cloud platforms such as Heroku / Azure")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon

@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate Front-End Developer who loves to explore!",
+  subTitle: "Passionate AI Developer who loves to explore!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for Web applications"
+      "⚡ Develop optimal AI solutions for Static / Computer Vision / NLP applications"
     ),
-    emoji("⚡ Best Coding Practices to keep App Scalable and well Managed"),
+    emoji("⚡ Use modern deep architectures"),
     emoji(
-      "⚡ Integration of third party services"
+      "⚡ Deployment of models on cloud platforms such as Heroku / Azure "
     )
   ],
 

@@ -23,7 +23,7 @@ const greeting = {
   username: "Ahsen",
   title: "Hi, I'm Ahsen",
   subTitle: emoji(
-    "Passionate AI developer having experience in developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks.
+    "Passionate AI developer having experience in developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button

@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ahsen Nazir",
+  username: "AhsenNazir",
   title: "Hi all, I'm Ahsen",
   subTitle: emoji(
     "Passionate AI developer 🚀 having experience of developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks."
@@ -156,20 +156,22 @@ const educationInfo = {
         "Pakistan Institute of Engineering and Applied Sciences (PIEAS)",
       logo: require("./assets/images/pieas.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "November 2020 - September 2022",
+      desc: "IT scholarship awardee. Majored in Deep Neural Networks / AI, participated in the research of Network Intrusion Detection and ranked in the top decile with 3.65 / 4.00 CGPA",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      	"Studied several AI courses including Machine Learning, Digital Image Processing, Computer Vision, Image and Video Understanding, Deep Neural Networks, Pattern Classification and Recognition, Artificial Intelligence",
+        "Developed a high precision NIDS to detect anomalies using a deep ensemble architecture",
+        "The system achieved remarkable performance with robustness to zero day attacks"
       ]
     },
     {
       schoolName: "Bahria University",
       logo: require("./assets/images/bahria.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2015 - February 2020",
+      desc: "Highest grade in the final year project",
+      descBullets: ["Studied courses about Object-oriented Programming, Software Engineering, Data Warehousing, Management Information Systems, Database Management Systems, Web Engineering, Software Project Management and Computer Graphics",
+      "Developed a web application that served as a 'Lost and Found' repository powered by a custom semantic matching algorithm"]
     }
   ]
 };
@@ -180,16 +182,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Deep Neural Networks", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Computer Vision",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Natural Language Processing",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false

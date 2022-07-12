@@ -36,9 +36,9 @@ const socialMediaLinks = {
   github: "https://github.com/acen20",
   linkedin: "https://www.linkedin.com/in/ahsen-nazir10/",
   gmail: "ahsenmailbox@gmail.com",
-  gitlab: "https://gitlab.com/acen20",
+  gitlab: "",
   facebook: "https://www.facebook.com/acen20",
-  medium: "https://medium.com/@ahsen1330",
+  medium: "",
   stackoverflow: "https://stackoverflow.com/users/13940093/ahsen-nazir",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -160,8 +160,7 @@ const educationInfo = {
       desc: "IT scholarship awardee. Majored in Deep Neural Networks / AI, participated in the research of Network Intrusion Detection and ranked in the top decile with 3.65 / 4.00 CGPA",
       descBullets: [
       	"Studied several AI courses including Machine Learning, Digital Image Processing, Computer Vision, Image and Video Understanding, Deep Neural Networks, Pattern Classification and Recognition, Artificial Intelligence",
-        "Developed a high precision NIDS to detect anomalies using a deep ensemble architecture",
-        "The system achieved remarkable performance with robustness to zero day attacks"
+        "Developed a high precision NIDS to detect anomalies using a deep ensemble architecture with robustness to zero day attacks",
       ]
     },
     {

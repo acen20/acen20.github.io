@@ -190,8 +190,8 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Natural Language Processing",
-      progressPercentage: "80%"
+      Stack: "Data Analysis",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -203,28 +203,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "AI Developer",
+      company: "Upwork (Freelancer)",
+      companylogo: require("./assets/images/upworkLogo.png"),
+      date: "June 2021 – Present",
+      desc: "Build and deploy AI models",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Analyze and process data of different modalities such as Vision, Static, Acoustic and Text",
+        "Construct training and inference pipelines",
+        "Research"
       ]
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      company: "Fiverr (Freelancer)",
+      companylogo: require("./assets/images/fiverrLogo.png"),
+      date: "May 2020 – June 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      company: "Smart Solutions",
+      companylogo: require("./assets/images/smartSolLogo.png"),
+      date: "October 2019 – December 2019",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]

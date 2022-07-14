@@ -71,6 +71,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
+      skillName: "fastAPI",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
       skillName: "numpy",
       fontAwesomeClassname: "fas fa-cube"
     },
@@ -89,10 +93,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "torchaudio",
       fontAwesomeClassname: "fas fa-assistive-listening-systems"
-    },
-    {
-      skillName: "cuda",
-      fontAwesomeClassname: "fas fa-microchip"
     },
     {
       skillName: "scikit-learn",
@@ -218,14 +218,24 @@ const workExperiences = {
       company: "Fiverr (Freelancer)",
       companylogo: require("./assets/images/fiverrLogo.png"),
       date: "May 2020 – June 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Develop Front-End for websites",
+      descBullets:[
+		    "Develop clean and consistent front-end designs",
+		    "Incorporate JS and CSS frameworks (ReactJS, Bootstrap, MaterialUI)",
+		    "Integrate APIs"
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Smart Solutions",
       companylogo: require("./assets/images/smartSolLogo.png"),
       date: "October 2019 – December 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Develop Full-stack .NET desktop applications",
+      descBullets:[
+      	"Develop n-tier ERP applications for desktop",
+      	"Requirements engineering",
+      	"Test and report bugs in the software"
+      ]
     }
   ]
 };

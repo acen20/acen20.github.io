@@ -156,7 +156,7 @@ const educationInfo = {
         "Pakistan Institute of Engineering and Applied Sciences (PIEAS)",
       logo: require("./assets/images/pieas.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "November 2020 - September 2022",
+      duration: "November 2020 - November 2022",
       desc: "IT scholarship awardee. Majored in Deep Neural Networks / AI, participated in the research of Network Intrusion Detection and ranked in the top decile with 3.65 / 4.00 CGPA",
       descBullets: [
       	"Studied several AI courses including Machine Learning, Digital Image Processing, Computer Vision, Image and Video Understanding, Deep Neural Networks, Pattern Classification and Recognition, Artificial Intelligence",
@@ -388,7 +388,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com",
+  email_address: "ahsenmailbox@gmail.com",
   display: false
 };
 

@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "ahsenmailbox@gmail.com",
   gitlab: "",
   facebook: "https://www.facebook.com/acen20",
-  medium: "",
+  medium: "ahsen1330",
   stackoverflow: "https://stackoverflow.com/users/13940093/ahsen-nazir",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -333,7 +333,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",

@@ -124,7 +124,7 @@ if (MEDIUM_USERNAME !== undefined) {
   });
 
   req.on("error", error => {
-    throw error;
+    console.log("Couldn't access medium!");
   });
 
   req.end();

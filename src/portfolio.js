@@ -55,7 +55,7 @@ const skillsSection = {
       "⚡ Build and train optimal AI models for Computer Vision / Static / NLP applications"
     ),
     emoji("⚡ Use state-of-the-art (SOTA) deep architectures "),
-    emoji("⚡ Deployment of AI models on Heroku / Azure")
+    emoji("⚡ Optimization & Deployment of AI models")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -244,7 +244,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -387,9 +387,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+92-3239991330",
   email_address: "ahsenmailbox@gmail.com",
-  display: false
+  display: true
 };
 
 // Twitter Section

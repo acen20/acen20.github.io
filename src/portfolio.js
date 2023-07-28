@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "ahsenmailbox@gmail.com",
   gitlab: "",
   facebook: "https://www.facebook.com/acen20",
-  medium: "ahsen1330",
+  medium: "",
   stackoverflow: "https://stackoverflow.com/users/13940093/ahsen-nazir",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia

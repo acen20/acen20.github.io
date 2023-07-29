@@ -49,13 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY AI DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Curious AI Developer on a Mission to Explore All the Tech Stacks! Let's Uncover the Wonders of Technology! 🚀💡",
   skills: [
     emoji(
-      "⚡ Build and train optimal AI models for Computer Vision / Static / NLP applications"
+      "⚡ Build and train AI models for various applications."
     ),
-    emoji("⚡ Use state-of-the-art (SOTA) deep architectures "),
-    emoji("⚡ Optimization & Deployment of AI models")
+    emoji("⚡ Use state-of-the-art (SOTA) deep learning architectures."),
+    emoji("⚡ Streamlining of of AI models."),
+    emoji("⚡ Integrate and Derive insights from Data using latest Analytics stack."),
+    emoji("⚡ API Development."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -212,9 +214,9 @@ const workExperiences = {
       date: "June 2021 – December 2022",
       desc: "Build and deploy AI models",
       descBullets: [
-        "Analyze and process data of different modalities such as Vision, Static, Acoustic and Text",
-        "Construct training and inference pipelines",
-        "Research"
+        "Analyze and process data of different modalities such as Vision, Static, Acoustic and Text.",
+        "Construct training and inference pipelines.",
+        "Research."
       ]
     },
     {
@@ -224,9 +226,9 @@ const workExperiences = {
       date: "May 2020 – June 2022",
       desc: "Develop Front-End for websites",
       descBullets:[
-		    "Develop clean and consistent front-end designs",
-		    "Incorporate JS and CSS frameworks (ReactJS, Bootstrap, MaterialUI)",
-		    "Integrate APIs"
+		    "Develop clean and consistent front-end designs.",
+		    "Incorporate JS and CSS frameworks (ReactJS, Bootstrap, MaterialUI).",
+		    "Integrate API endpoints."
       ]
     },
     {
@@ -236,7 +238,7 @@ const workExperiences = {
       date: "October 2019 – December 2019",
       desc: "Develop Full-stack .NET desktop applications",
       descBullets:[
-      	"Develop n-tier ERP applications for desktop",
+      	"Develop n-tier ERP applications for web and desktop",
       	"Requirements engineering",
       	"Test and report bugs in the software"
       ]

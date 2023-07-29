@@ -209,7 +209,7 @@ const workExperiences = {
       role: "AI Developer",
       company: "Upwork (Freelancer)",
       companylogo: require("./assets/images/upworkLogo.png"),
-      date: "June 2021 – Present",
+      date: "June 2021 – December 2022",
       desc: "Build and deploy AI models",
       descBullets: [
         "Analyze and process data of different modalities such as Vision, Static, Acoustic and Text",

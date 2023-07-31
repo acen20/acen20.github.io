@@ -170,7 +170,7 @@ const educationInfo = {
       logo: require("./assets/images/bahria.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2015 - February 2020",
-      desc: "Highest grade in the final year project",
+      desc: "Distinction in the final year project",
       descBullets: ["Studied courses about Object-oriented Programming, Software Engineering, Data Warehousing, Management Information Systems, Database Management Systems, Web Engineering, Software Project Management and Computer Graphics",
       "Developed a web application that served as a 'Lost and Found' repository powered by a custom semantic matching algorithm"]
     }

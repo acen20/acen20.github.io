@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/acen20",
-  linkedin: "https://www.linkedin.com/in/ahsen-nazir10/",
+  linkedin: "https://www.linkedin.com/in/ahsennazir/",
   gmail: "ahsenmailbox@gmail.com",
   gitlab: "",
   facebook: "https://www.facebook.com/acen20",

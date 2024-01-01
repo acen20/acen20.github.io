@@ -55,7 +55,7 @@ const skillsSection = {
       "⚡ Build and train AI models for various applications."
     ),
     emoji("⚡ Use state-of-the-art (SOTA) deep learning architectures."),
-    emoji("⚡ Streamlining of of AI models."),
+    emoji("⚡ Streamlining of AI models."),
     emoji("⚡ Integrate and Derive insights from Data using latest Analytics stack."),
     emoji("⚡ API Development."),
   ],

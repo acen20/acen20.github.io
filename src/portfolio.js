@@ -208,6 +208,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Assistant Manager (AI)",
+      company: "AITeC, NCP",
+      companylogo: require("./assets/images/aitec.png"),
+      date: "April 2023 – Present",
+      desc: "Planning, coordination, and execution of AI projects",
+      descBullets: [
+        "Assist in planning and executing AI projects.",
+        "Analyze data and provide insights for model improvement.",
+        "Stay updated on AI advancements and contribute to R&D.",
+        "Collaborate with cross-functional teams for AI integration.",
+        "Maintain detailed documentation of AI projects.",
+      ]
+    },
+    {
       role: "AI Developer",
       company: "Upwork (Freelancer)",
       companylogo: require("./assets/images/upworkLogo.png"),

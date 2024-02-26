@@ -4,6 +4,8 @@
   max-width: 100%;
   height: auto;
   width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 .card-title {
   color: $titleColor;
@@ -26,6 +28,7 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  position: relative;
 }
 .certificate-detail-div {
   text-align: center;
@@ -72,4 +75,14 @@
 }
 span.certificate-tag:hover {
   background: $buttonHover;
+}
+
+.achievement-extra{
+  position: absolute;
+  top:0;
+  right:0;
+  margin-top: -20px;
+  margin-right: 10px;
+  width:60px;
+  z-index: 100;
 }

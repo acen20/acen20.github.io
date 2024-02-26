@@ -13,6 +13,7 @@ export default function AchievementCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
+      {cardInfo.extraImg && <img className="achievement-extra" src={cardInfo.extraImg} alt="PWA"/>}
       <div className="certificate-image-div">
         <img src={cardInfo.image} alt="PWA" className="card-image"></img>
       </div>

@@ -184,19 +184,19 @@ const techStack = {
   experience: [
     {
       Stack: "Deep Learning", //Insert stack or technology you have experience in
-      progressPercentage: "95%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Machine Learning",
       progressPercentage: "90%"
     },
     {
-      Stack: "Data Analysis",
+      Stack: "Computer Vision",
       progressPercentage: "90%"
     },
     {
-      Stack: "Web Development",
-      progressPercentage: "80%"
+      Stack: "DevOps/MLOps",
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -310,6 +310,64 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Best AI Poster Award",
+      subtitle:
+        'Won 2nd Best Poster Award for "Precision Agriculture: Wheat Crop Classification and Yield Estimation"',
+      image: require("./assets/images/poster.png"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1F2wGyjl_SL2U9oqKc8zUpkyrMsyfFSHq/view?usp=drive_link"
+        }
+      ],
+      extraImg: require("./assets/images/2medal.webp")
+    },
+    {
+      title: "ISAIMP-2023",
+      subtitle:
+        "In charge of enrolling participants for the International Symposium on AI Medical Imaging and Pattern Recognition - 2023",
+      image: require("./assets/images/ncp.jpg"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1chsB49V9DGGWt0ecV3K72-2CONroF4dq/view?usp=drive_link"
+        },
+        {
+          name: "Gallery",
+          url: "https://www.ncp.edu.pk/galleryimages.php?dir=WWVhciAyMDIzL0ludGVybmF0aW9uYWwgU3ltcG9zaXVtIG9uIEFJIE1lZGljYWwgSW1hZ2luZyBhbmQgUGF0dGVybiBSZWNvZ25pdGlvbiAyNC0yNS0wNy0yMDIz"
+        }
+      ]
+    },
+    {
+      title: "2nd NAIS Organizer",
+      subtitle:
+        "A key member of the committee overseeing participant registration",
+      image: require("./assets/images/aitec.png"),
+      footerLink: [
+        {
+          name: "Organizer Certificate",
+          url: "https://drive.google.com/file/d/1vbqF7XGlNtG3l2pH_RLEN2qo_KPzNn5I/view?usp=drive_link"
+        },
+        {
+          name: "Gallery",
+          url: "https://www.ncp.edu.pk/galleryimages.php?dir=WWVhciAyMDIzLzJuZCBBcnRpZmljaWFsIEludGVsbGlnZW5jZSBTZW1pbmFyIE5BSVMgMjAtMDYtMjAyMw=="
+        }
+      ]
+    },
+    {
+      title: "AI Fellowship 🥇",
+      subtitle:
+        "A 3-month fellowship course on Artificial Intelligence leading to job.",
+      image: require("./assets/images/aitec.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1L6UaSa1AKDhpvNRnBidLsEjc0i3viQsf/view?usp=drive_link"
+        }
+      ],
+      extraImg: require("./assets/images/1medal.png")
+    },
     {
       title: "Enterprise Design Thinking Practitioner",
       subtitle:

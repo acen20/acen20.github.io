@@ -327,7 +327,7 @@ const achievementSection = {
       title: "ISAIMP-2023",
       subtitle:
         "In charge of enrolling participants for the International Symposium on AI Medical Imaging and Pattern Recognition - 2023",
-      image: require("./assets/images/ncp.jpg"),
+      image: require("./assets/images/aitec.png"),
       footerLink: [
         {
           name: "Certificate",
@@ -343,7 +343,7 @@ const achievementSection = {
       title: "2nd NAIS Organizer",
       subtitle:
         "A key member of the committee overseeing participant registration",
-      image: require("./assets/images/aitec.png"),
+      image: require("./assets/images/ncp.jpg"),
       footerLink: [
         {
           name: "Organizer Certificate",

@@ -39,13 +39,13 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    de: "Hi, ich bin Ahsen",
+    en: "Hi, I'm Ahsen",
   },
-  subtitle: "Fullstack Developer ",
+  subtitle: "AI Developer",
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    de: "Ahsen ist ein Informatiker mit einem bemerkenswerten Hintergrund in der künstlichen Intelligenz und verfügt über jahrelange Erfahrung in der Entwicklung und Bereitstellung von KI-Lösungen. Bei seinem neuesten Auftritt taucht er in die hochmoderne Welt der Large Language and Vision Models ein und beherrscht deren Optimierung für die nahtlose Bereitstellung auf Edge-Geräten!",
+    en: "Ahsen is a Computer Scientist with a remarkable background in Artificial Intelligence, having years of experience in development and deployment of AI solutions. His latest gig delves into the cutting-edge world of Large Language and Vision Models, mastering their optimization for seamless deployment on edge devices!",
   },
   buttons: [
     {
@@ -90,7 +90,7 @@ export const projectsData = [
     ],
     image: tastyMockup,
     deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    githuburl: "https://github.com/Ahsen C/Frontend_Abschlussprojekt_Tasty",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -123,7 +123,7 @@ export const projectsData = [
     image: silentmoonMockup,
     deploymenturl: "https://silentmoon-grpw.onrender.com/",
     githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+      "https://github.com/Ahsen C/Fullstack_Abschlussprojekt_SilentMoon",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -155,7 +155,7 @@ export const projectsData = [
     ],
     image: instorMockup,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    githuburl: "https://github.com/Ahsen C/Furniture_MERN",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -310,23 +310,23 @@ export const FooterLinks = [
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "mailto:ahsenmailbox@gmail.com",
+  text: "ahsenmailbox",
 } as const;
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/ahsennazir/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/acen20",
     icon: FiGithub,
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "mailto:ahsenmailbox@gmail.com",
     icon: FiMail,
     altimgname: "mail",
   },
@@ -334,13 +334,14 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
+    de: '"AI ist die wichtigste Technologie der Menschheit, ein zweischneidiges Schwert für eine neue Ära des Wohlstands."',
+    en: `"AI is humanity's most important technology, a double-edged sword for a new era of prosperity."`,
+    author: "Elon Musk"
+  },
+  {
     de: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
     en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
     author: "Andrew Hunt",
-  },
-  {
-    de: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
-    en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
   },
 ] as const;
 
@@ -469,8 +470,8 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      de: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
-      en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
+      de: "Ich stimme zu, dass Ahsen meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
+      en: "I agree that Ahsen may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
       de: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",

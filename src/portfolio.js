@@ -26,7 +26,7 @@ const greeting = {
     "Passionate AI developer 🚀 having experience of developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1CbWDCZGl-2gBZR1o4GrWbYIosvNF_kXT/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1SADVFTBi_3X4p7oyjr4DdeTTO1wXM_qh/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

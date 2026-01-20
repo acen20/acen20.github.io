@@ -355,7 +355,7 @@ const featuredProjects = {
       footerLink: [
         {
           name: "Details",
-          url: "youtube.com/watch?v=Ke2XJu4kcpg&feature=youtu.be" // Add URL when available
+          url: "https://www.youtube.com/watch?v=Ke2XJu4kcpg" // Add URL when available
         }
       ]
     },

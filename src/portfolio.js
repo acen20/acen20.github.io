@@ -23,7 +23,7 @@ const greeting = {
   username: "AhsenNazir",
   title: "Hi all, I'm Ahsen",
   subTitle: emoji(
-    "Passionate AI developer 🚀 having experience of developing machine learning and deep learning solutions with Python / PyTorch and many other cool libraries and frameworks."
+    "AI Engineer with 4+ years of experience designing, deploying, and scaling production-grade AI systems across Computer Vision, Natural Language Processing, and Generative AI. Currently working on research-driven AI initiatives focused on modernizing legacy systems. Experienced in building end-to-end AI pipelines, LLM-powered applications, and automation workflows."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1SADVFTBi_3X4p7oyjr4DdeTTO1wXM_qh/view?usp=drive_link", // Set to empty to hide the button
@@ -301,6 +301,107 @@ const bigProjects = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Featured Projects Section
+
+const featuredProjects = {
+  title: "Featured Projects",
+  subtitle: "Showcasing innovative AI solutions and cutting-edge technologies",
+  projects: [
+    {
+      title: "AI-based Information Extraction from General Arrangements (OD + OCR)",
+      description:
+        "Production-ready pipeline that detects tables, nozzles, notes, and views in GA engineering drawings with YOLOv8, then extracts text and tabular data via PaddleOCR and DONUT to deliver clean JSON/CSV for downstream CAD/BIM systems.",
+      image: require("./assets/images/ga.png"), // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://github.com/acen20/ga-analysis" // Add URL when available
+        }
+      ]
+    },
+    {
+      title: "Automated Social Media Posting",
+      description:
+        "Agentic content planner and autoposter powered by local LLMs (Qwen2.5, Llama3.1) orchestrated in n8n; performs research via SerpAPI, drafts captions and hashtags, then posts to Facebook/Instagram (Graph API) and X with scheduling, retries, and audit logging.",
+      image: require("./assets/images/n8n-social.png"), // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://www.linkedin.com/feed/update/urn:li:activity:7343909911744929792/" // Add URL when available
+        }
+      ]
+    },
+    {
+      title: "Video Synthesis for Animal Faces",
+      description:
+        "Image+audio to talking-face video for animal characters using Stable Diffusion + LivePortrait pipelines in ComfyUI, with face alignment, lip-sync, and temporal smoothing for coherent motion; GPU-friendly batch graph for rapid iteration.",
+      image: require("./assets/images/comfy.jpg"), // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://www.linkedin.com/feed/update/urn:li:activity:7285134021288689664/" // Add URL when available
+        }
+      ]
+    },
+    {
+      title: "Headshot Generator (SD 1.5)",
+      description:
+        "Personalized headshot studio on SD 1.5 with DreamBooth/LoRA fine-tuning, Automatic1111 orchestration, style presets, prompt guardrails, batch renders, and auto-cleanup of training artifacts for repeatable high-quality portraits.",
+      image: require("./assets/images/headshot.gif"), // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "youtube.com/watch?v=Ke2XJu4kcpg&feature=youtu.be" // Add URL when available
+        }
+      ]
+    },
+    {
+      title: "OCR-Free Document Parsing (End-to-End Automation)",
+      description:
+        "End-to-end document understanding stack using LayoutLMv3 + DONUT for OCR-free key-value and table extraction where possible, with Dockerized multi-GPU workers, Streamlit review UI, and structured JSON/CSV export for analytics pipelines.",
+      image: require("./assets/images/invoice.png"), // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://www.youtube.com/watch?v=t-DcJj4SkAs" // Add URL when available
+        }
+      ]
+    },
+    {
+      title: "Invoice Parsing for BI using AgenticAI",
+      description:
+        "Agentic invoice-to-BI pipeline: n8n orchestrates Qwen2.5VL + Gemma3 for multimodal understanding, validates outputs, normalizes vendor-specific layouts, and writes clean tables to Postgres for dashboards and downstream analytics.",
+      image: require("./assets/images/n8n-invoice.png"), // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://www.linkedin.com/feed/update/urn:li:activity:7339185830537687040/" // Add URL when available
+        }
+      ]
+    },
+    {
+      title: "Object Detection and Segmentation (End-to-End Automation)",
+      description:
+        "Small-object-first detection and instance segmentation using Detectron2 + SAHI tiling, with Celery + RabbitMQ distributed inference, queue/backpressure monitoring, and automated mask/box delivery to downstream systems for production use.",
+      image: require("./assets/images/od.png"), // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://www.youtube.com/watch?v=VpQ59AW-TbQ" // Add URL when available
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Achievement Section
 // Include certificates, talks etc
 
@@ -488,6 +589,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  featuredProjects,
   achievementSection,
   blogSection,
   talkSection,

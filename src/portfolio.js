@@ -26,7 +26,7 @@ const greeting = {
     "AI Engineer with 4+ years of experience designing, deploying, and scaling production-grade AI systems across Computer Vision, Natural Language Processing, and Generative AI. Currently working on research-driven AI initiatives focused on modernizing legacy systems. Experienced in building end-to-end AI pipelines, LLM-powered applications, and automation workflows."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1SADVFTBi_3X4p7oyjr4DdeTTO1wXM_qh/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1FdTTZCA5VbFh3Z3H3nPGXhBbMyBIVNP9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

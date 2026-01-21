@@ -350,7 +350,7 @@ const featuredProjects = {
       title: "Headshot Generator (SD 1.5)",
       description:
         "Personalized headshot studio on SD 1.5 with DreamBooth/LoRA fine-tuning, Automatic1111 orchestration, style presets, prompt guardrails, batch renders, and auto-cleanup of training artifacts for repeatable high-quality portraits.",
-      image: require("./assets/images/headshot.gif"), // Placeholder - user will add image
+      image: `${process.env.PUBLIC_URL}/gifs/headshot.gif`, // Placeholder - user will add image
       descBullets: [],
       footerLink: [
         {

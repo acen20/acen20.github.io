@@ -5,3 +5,4 @@
 *.webp binary
 *.woff binary
 *.gif filter=lfs diff=lfs merge=lfs -text
+public/gifs/headshot.gif filter=lfs diff=lfs merge=lfs -text

@@ -23,7 +23,7 @@ const greeting = {
   username: "AhsenNazir",
   title: "Hi all, I'm Ahsen",
   subTitle: emoji(
-    "AI Engineer with 4+ years of experience designing, deploying, and scaling production-grade AI systems across Computer Vision, Natural Language Processing, and Generative AI. Currently working on research-driven AI initiatives focused on modernizing legacy systems. Experienced in building end-to-end AI pipelines, LLM-powered applications, and automation workflows."
+    "AI Engineer with 5+ years of experience designing, deploying, and scaling production-grade AI systems across Computer Vision, Natural Language Processing, and Generative AI. Currently working on research-driven AI initiatives focused on modernizing legacy systems. Experienced in building end-to-end AI pipelines, LLM-powered applications, and automation workflows."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1FdTTZCA5VbFh3Z3H3nPGXhBbMyBIVNP9/view?usp=sharing", // Set to empty to hide the button

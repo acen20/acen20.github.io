@@ -2,24 +2,32 @@
 
 .featured-projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  width: 100%;
 }
 
+/* Tablets */
 @media (max-width: 1200px) {
   .featured-projects-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
   }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .featured-projects-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 1rem;
+    padding: 0 1rem;   // prevent edge overflow
   }
-  
+
+  .featured-projects-container > * {
+    width: 100%;
+  }
+
   .project-subtitle {
     font-size: 16px;
     text-align: center;

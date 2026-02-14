@@ -308,9 +308,9 @@ const featuredProjects = {
   subtitle: "Showcasing innovative AI solutions and cutting-edge technologies",
   projects: [
     {
-      title: "AvatarAI Live",
+      title: "AvatarAI Live - Interactive Local AI Avatars with Streaming Responses",
       description:
-        "Interactive Local AI Avatars with Streaming Responses. AvatarAI Live allows users to select and communicate with a variety of local AI avatars. The project utilizes Google AI Studio, Ollama, Parakeet, CosyVoice and GAN-based LipSync",
+        "AvatarAI Live allows users to select and communicate with a variety of local AI avatars. The project utilized Google AI Studio, ElevenLabs, Local LLM, Local ASR, a TTS and GAN-based LipSync. Current response time is ~3-5 seconds (RTX 4070 Ti)",
       image: "https://github.com/acen20/avatarai-live-demo/blob/main/assets/cover_image.png?raw=true", // Placeholder - user will add image
       descBullets: [],
       footerLink: [

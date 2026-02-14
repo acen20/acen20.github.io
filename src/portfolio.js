@@ -310,7 +310,7 @@ const featuredProjects = {
     {
       title: "AvatarAI Live",
       description:
-        "Interactive Local AI Avatars with Streaming Responses, using ASR, LLM, TTS and GAN-based LipSync from Speech",
+        "Interactive Local AI Avatars with Streaming Responses. AvatarAI Live allows users to select and communicate with a variety of local AI avatars. The project utilizes Google AI Studio, Ollama, Parakeet, CosyVoice and GAN-based LipSync",
       image: "https://github.com/acen20/avatarai-live-demo/blob/main/assets/cover_image.png?raw=true", // Placeholder - user will add image
       descBullets: [],
       footerLink: [

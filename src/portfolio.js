@@ -308,6 +308,19 @@ const featuredProjects = {
   subtitle: "Showcasing innovative AI solutions and cutting-edge technologies",
   projects: [
     {
+      title: "AvatarAI Live",
+      description:
+        "Interactive Local AI Avatars with Streaming Responses, using ASR, LLM, TTS and GAN-based LipSync from Speech",
+      image: "https://github.com/acen20/avatarai-live-demo/blob/main/assets/cover_image.png?raw=true", // Placeholder - user will add image
+      descBullets: [],
+      footerLink: [
+        {
+          name: "Details",
+          url: "https://github.com/acen20/avatarai-live-demo" // Add URL when available
+        }
+      ]
+    },
+    {
       title: "AI-based Information Extraction from General Arrangements (OD + OCR)",
       description:
         "Production-ready pipeline that detects tables, nozzles, notes, and views in GA engineering drawings with YOLOv8, then extracts text and tabular data via PaddleOCR and DONUT to deliver clean JSON/CSV for downstream CAD/BIM systems.",

@@ -1,35 +1,92 @@
-@import "../../_globalColor";
+/* ---------- MAIN CONTAINER ---------- */
+.main {
+  width: 100%;
+  padding: 2rem 1rem;
+  box-sizing: border-box; /* prevent padding overflow */
+  overflow-x: hidden;     /* safety against horizontal scroll */
+}
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* ---------- HEADINGS ---------- */
+.skills-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* ---------- PROJECT GRID ---------- */
 .featured-projects-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 1.5rem;
+
+  /* Automatically fill row with min 250px per card, expand to 1fr */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   width: 100%;
+  box-sizing: border-box;
 }
 
-/* Tablets */
+
+/* ---------- PROJECT CARD STYLING ---------- */
+.featured-projects-container > * {
+  display: flex;
+  flex-direction: column;
+  background: #fff; /* default card bg, change in dark mode */
+  border-radius: 10px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%; /* ensures full row stretch */
+}
+
+/* ---------- HOVER EFFECT ---------- */
+.featured-projects-container > *:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- RESPONSIVE FONT SIZES ---------- */
 @media (max-width: 1200px) {
-  .featured-projects-container {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.5rem;
-  }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .featured-projects-container {
-    grid-template-columns: 1fr !important;
-    gap: 1rem;
-    padding: 0 1rem;   // prevent edge overflow
-  }
-
-  .featured-projects-container > * {
-    width: 100%;
+  .skills-heading {
+    font-size: 2.5rem;
   }
 
   .project-subtitle {
-    font-size: 16px;
-    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 2rem;
+  }
+
+  .project-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-heading {
+    font-size: 1.6rem;
+  }
+
+  .project-subtitle {
+    font-size: 0.95rem;
   }
 }

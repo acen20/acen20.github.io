@@ -119,6 +119,15 @@ function LexForge() {
                 <div className="bar"><span className="d"></span><span className="d"></span><span className="d"></span><span className="url">{lf.urlLabel}</span></div>
                 <image-slot id="lexforge-shot" src={lf.shot} shape="rect" fit="cover" placeholder="Drop a LexForge screenshot"></image-slot>
               </div>
+              <div className="lex-metrics">
+                {lf.metrics.map((m, i) => (
+                  <div className="lm" key={i}>
+                    <div className="lm-head"><b>{m.v}</b><span className="lm-badge">RAGAS</span></div>
+                    <span className="lm-name">{m.name}</span>
+                    <span className="lm-delta"><i>▲</i>{m.d}</span>
+                  </div>
+                ))}
+              </div>
               <div className="scan"></div>
             </div>
           </div>
@@ -240,7 +249,7 @@ function Pursuits() {
                 <span className="chip int" key={i}>{it}</span>
               ))}
             </div>
-            <p className="fan-hint mono">Hover any photo for its caption ✦ drop your own photos in</p>
+            <p className="fan-hint mono"></p>
           </div>
         </div>
       </div>

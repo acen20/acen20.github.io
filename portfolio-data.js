@@ -1,0 +1,192 @@
+/* All portfolio content for Ahsen Nazir - edit copy here. */
+window.PF = {
+  name: "Ahsen Nazir",
+  brand: "AHSEN_NAZIR // AI.ENG",
+  resume: "https://drive.google.com/file/d/1FdTTZCA5VbFh3Z3H3nPGXhBbMyBIVNP9/view?usp=sharing",
+  bio: "I'm Ahsen, an AI Engineer with 5+ years building production-grade AI across Computer Vision, NLP, and Generative AI, specialized in LLM systems, RAG pipelines, and multi-agent automation, with international deployments across China, the US, and Southeast Asia.",
+  stats: [
+    { n: "5+", l: "Years" },
+    { n: "20+", l: "Models shipped" },
+    { n: "MSc", l: "PIEAS · AI" },
+  ],
+  ticker: ["LLM Systems","RAG Pipelines","Multi-Agent","Generative AI","Computer Vision","NLP","MLOps","AI Automation"],
+
+  lexforge: {
+    tag: "Latest Release · Live",
+    name: "LexForge",
+    sub: "intelligence for legal & financial filings",
+    desc: "Enterprise AI for legal & financial document analysis: agentic retrieval, hybrid search, and multi-expert risk reasoning over SEC filings, 10-Ks, and contracts.",
+    highlights: [
+      "Agentic retrieval over SEC filings, 10-Ks & contracts",
+      "Hybrid search: BM25 lexical + dense vector reranking",
+      "Multi-expert risk reasoning orchestrated with LangGraph",
+    ],
+    stack: ["AWS Bedrock", "LangGraph", "LangChain", "Qdrant", "Langfuse"],
+    shot: "assets/lexforge-demo.png",
+    link: "https://ncorplabs.com/projects/lexforge",
+    repo: "",
+    urlLabel: "ncorplabs.com/projects/lexforge",
+  },
+
+  projects: [
+    {
+      title: "AvatarAI Live: Interactive Local AI Avatars",
+      desc: "Select and converse with local AI avatars in real time. Built on Google AI Studio, ElevenLabs, a local LLM + ASR, TTS, and GAN-based lip-sync, with ~3-5s response on an RTX 4070 Ti.",
+      img: "https://github.com/acen20/avatarai-live-demo/blob/main/assets/cover_image.png?raw=true",
+      tags: ["Local LLM","ASR/TTS","LipSync GAN","Realtime"],
+      link: "https://github.com/acen20/avatarai-live-demo",
+      wide: true,
+    },
+    {
+      title: "GA Drawing Info Extraction (OD + OCR)",
+      desc: "Production pipeline that detects tables, nozzles, notes & views in engineering drawings with YOLOv8, then extracts text/tabular data via PaddleOCR + DONUT to clean JSON/CSV for CAD/BIM.",
+      img: "assets/ga.png",
+      tags: ["YOLOv8","PaddleOCR","DONUT"],
+      link: "https://github.com/acen20/ga-analysis",
+    },
+    {
+      title: "Automated Social Media Posting",
+      desc: "Agentic content planner & autoposter on local LLMs (Qwen2.5, Llama3.1) orchestrated in n8n: researches via SerpAPI, drafts captions, then posts to Meta & X with scheduling, retries & audit logs.",
+      img: "assets/n8n-social.png",
+      tags: ["n8n","Agentic","Graph API"],
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7343909911744929792/",
+    },
+    {
+      title: "Video Synthesis for Animal Faces",
+      desc: "Image + audio to talking-face video for animal characters using Stable Diffusion + LivePortrait in ComfyUI, with face alignment, lip-sync & temporal smoothing for coherent motion.",
+      img: "assets/comfy.jpg",
+      tags: ["Stable Diffusion","LivePortrait","ComfyUI"],
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7285134021288689664/",
+    },
+    {
+      title: "Headshot Generator (SD 1.5)",
+      desc: "Personalized headshot studio on SD 1.5 with DreamBooth/LoRA fine-tuning, Automatic1111 orchestration, style presets, prompt guardrails & batch renders for repeatable high-quality portraits.",
+      img: "assets/headshot.gif",
+      tags: ["DreamBooth","LoRA","A1111"],
+      link: "https://www.youtube.com/watch?v=Ke2XJu4kcpg",
+    },
+    {
+      title: "OCR-Free Document Parsing",
+      desc: "End-to-end document understanding with LayoutLMv3 + DONUT for OCR-free key-value & table extraction, Dockerized multi-GPU workers, a Streamlit review UI & structured JSON/CSV export.",
+      img: "assets/invoice.png",
+      tags: ["LayoutLMv3","DONUT","Streamlit"],
+      link: "https://www.youtube.com/watch?v=t-DcJj4SkAs",
+    },
+    {
+      title: "Invoice Parsing for BI (Agentic AI)",
+      desc: "Agentic invoice-to-BI pipeline: n8n orchestrates Qwen2.5-VL + Gemma3 for multimodal understanding, validates outputs, normalizes vendor layouts & writes clean tables to Postgres for dashboards.",
+      img: "assets/n8n-invoice.png",
+      tags: ["Qwen2.5-VL","Gemma3","Postgres"],
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7339185830537687040/",
+    },
+    {
+      title: "Object Detection & Segmentation",
+      desc: "Small-object-first detection & instance segmentation with Detectron2 + SAHI tiling, Celery + RabbitMQ distributed inference, queue/backpressure monitoring & automated mask/box delivery.",
+      img: "assets/od.png",
+      tags: ["Detectron2","SAHI","Celery"],
+      link: "https://www.youtube.com/watch?v=VpQ59AW-TbQ",
+    },
+  ],
+
+  doList: [
+    "Build agentic AI systems & automation pipelines (n8n, local LLMs)",
+    "Develop LLM- and VLM-powered applications end-to-end",
+    "Design and train modern deep-learning architectures",
+    "Deploy & scale models on the cloud with solid MLOps",
+    "Ship robust APIs and derive insight from multimodal data",
+  ],
+  bars: [
+    { name: "Agentic AI & Automation", pct: 100 },
+    { name: "LLMs & VLMs", pct: 95 },
+    { name: "Deep Learning Architectures", pct: 95 },
+    { name: "Cloud & MLOps (AWS)", pct: 90 },
+  ],
+  skills: [
+    { n:"Python", i:"fab fa-python" },
+    { n:"PyTorch", i:"fas fa-fire" },
+    { n:"Hugging Face", i:"fas fa-robot" },
+    { n:"LangChain", i:"fas fa-link" },
+    { n:"n8n", i:"fas fa-diagram-project" },
+    { n:"Ollama / vLLM", i:"fas fa-microchip" },
+    { n:"FastAPI", i:"fas fa-bolt" },
+    { n:"AWS", i:"fab fa-aws" },
+    { n:"Azure", i:"fab fa-microsoft" },
+    { n:"Docker", i:"fab fa-docker" },
+    { n:"Linux", i:"fab fa-linux" },
+    { n:"SQL / Postgres", i:"fas fa-database" },
+    { n:"NumPy", i:"fas fa-cube" },
+    { n:"Pandas", i:"fas fa-grip-lines-vertical" },
+    { n:"scikit-learn", i:"fas fa-chart-bar" },
+    { n:"W&B", i:"fas fa-braille" },
+    { n:"Django", i:"fab fa-python" },
+    { n:"Kaggle", i:"fab fa-kaggle" },
+  ],
+
+  experience: [
+    {
+      role: "Assistant Manager (AI) · Deep Learning Lab", co: "National Centre for Physics", loc: "Islamabad, PK", date: "Apr 2023 - Apr 2026", logo: "assets/aitec.png",
+      bullets: [
+        "Led production AI for document intelligence & LLM automation across 3 integrated systems",
+        "Designed RAG pipelines with vector DBs for semantic search over 10K+ documents",
+        "Built multi-agent systems in n8n orchestrating 20+ step workflows, cutting manual effort 30-50%",
+        "Shipped LLM evaluation & API orchestration with streaming + rate-limiting at 99%+ stability",
+      ],
+    },
+    {
+      role: "AI Engineer Intern", co: "Shenzhen AiMall Technology", loc: "Shenzhen, CN", date: "Dec 2024 - Feb 2025", logo: "assets/aimall.png",
+      bullets: [
+        "Built Stable Diffusion image-animation pipelines from pose + audio inputs",
+        "Optimized ComfyUI workflows (FaceAlignment, MediaPipe, InsightFace) for stability",
+        "Cut memory use 50% via model offloading; multi-GPU DiT-style parallelization across 2 GPUs",
+      ],
+    },
+    {
+      role: "AI Developer", co: "Freelance · Upwork", loc: "Remote", date: "Jun 2020 - Jun 2025", logo: "assets/upwork.png",
+      bullets: [
+        "Deployed DL models supporting 1000+ concurrent inference requests in production",
+        "Built secure, rate-limited AI APIs with auth & controlled model exposure",
+        "Delivered end-to-end AI for clients across the USA, Japan & Malaysia",
+      ],
+    },
+  ],
+  education: [
+    { school:"PIEAS", deg:"MSc Computer Science", dur:"Feb 2021 - Nov 2022 · CGPA 3.65/4.0", note:"IT Endowment Scholarship awardee (fully funded) · Deep Neural Networks research", logo:"assets/pieas.jpg" },
+    { school:"Bahria University, Islamabad", deg:"BSc Computer Science", dur:"Sep 2015 - Feb 2020", note:"Distinction in final-year project", logo:"assets/bahria.jpeg" },
+  ],
+
+  pursuits: {
+    intro: "When I'm not shipping models, you'll find me on the field, behind a lectern, or chasing a new rabbit hole. A few things that keep me curious outside the terminal.",
+    interests: ["Cricket & sports", "Speaking & lectures", "AI seminars", "Hiking & travel", "Photography", "Reading"],
+    photos: [
+      { id:"pursuit-1", src:"assets/pursuit-1.png", cap:"On the field" },
+      { id:"pursuit-2", src:"assets/pursuit-2.png", cap:"Speaking" },
+      { id:"pursuit-3", src:"assets/pursuit-3.png", cap:"Seminars" },
+      { id:"pursuit-4", src:"assets/pursuit-4.png", cap:"Outdoors" },
+      { id:"pursuit-5", src:"assets/pursuit-5.png", cap:"Off-grid" },
+    ],
+  },
+
+  certs: [
+    {
+      title: "AWS Cloud Quest: Cloud Practitioner",
+      issuer: "Amazon Web Services",
+      img: "https://images.credly.com/size/340x340/images/30816e43-2550-4e1c-be22-3f03c5573bb9/blob",
+      fallback: "https://images.credly.com/images/30816e43-2550-4e1c-be22-3f03c5573bb9/linkedin_thumb_blob",
+      url: "https://www.credly.com/badges/bfcc52e0-116f-46e1-b7a2-db0d43a8e9d5/public_url",
+    },
+    {
+      title: "Enterprise Design Thinking Practitioner",
+      issuer: "IBM",
+      img: "https://images.credly.com/size/340x340/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/Badges_v8-07_Practitioner.png",
+      fallback: "https://images.credly.com/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/linkedin_thumb_Badges_v8-07_Practitioner.png",
+      url: "https://www.credly.com/badges/7482f568-c2e3-4ce6-a81f-597832468b93/public_url",
+    },
+  ],
+
+  contact: {
+    email: "ahsenmailbox@gmail.com",
+    socials: [
+      { i:"fab fa-linkedin-in", url:"https://www.linkedin.com/in/ahsennazir/", label:"LinkedIn" },
+    ],
+  },
+};

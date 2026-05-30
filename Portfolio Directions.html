@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio Directions — Ahsen Nazir</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Anton&family=Archivo:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; background: #e9e7e1; }
+  * { box-sizing: border-box; }
+</style>
+</head>
+<body>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="image-slot.js"></script>
+<script type="text/babel" src="design-canvas.jsx"></script>
+<div id="root"></div>
+
+<script type="text/babel">
+const { useEffect } = React;
+
+/* ============================== DIRECTION A — EDITORIAL SPLIT ============================== */
+const dirA = `
+<style>
+.dA{position:absolute;inset:0;background:#f4f2ec;color:#0a0a0b;font-family:'Space Grotesk',sans-serif;display:flex;flex-direction:column;overflow:hidden;}
+.dA .topbar{display:flex;justify-content:space-between;align-items:center;padding:26px 40px;border-bottom:1px solid #0a0a0b;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;}
+.dA .topbar .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#0fae8f;margin-right:9px;vertical-align:middle;}
+.dA .hero{flex:1;display:grid;grid-template-columns:1.45fr 1fr;}
+.dA .left{padding:54px 40px 40px;display:flex;flex-direction:column;justify-content:center;border-right:1px solid #0a0a0b;}
+.dA .eyebrow{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#0a0a0b;opacity:.55;margin-bottom:26px;}
+.dA .name{font-size:138px;line-height:.88;font-weight:600;letter-spacing:-.04em;margin:0;}
+.dA .name em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;}
+.dA .bio{margin-top:30px;max-width:540px;font-size:21px;line-height:1.5;color:#26261f;}
+.dA .meta{margin-top:38px;display:flex;gap:34px;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.65;}
+.dA .meta b{display:block;font-size:23px;font-family:'Space Grotesk';letter-spacing:-.02em;opacity:1;color:#0a0a0b;margin-bottom:4px;font-weight:600;}
+.dA .right{position:relative;background:#0a0a0b;overflow:hidden;}
+.dA .right .photo{position:absolute;inset:0;background:repeating-linear-gradient(45deg,#16161a,#16161a 11px,#1d1d22 11px,#1d1d22 22px);filter:grayscale(1) contrast(1.08) brightness(1.02);}
+.dA .right .ph-cap{position:absolute;left:24px;bottom:22px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;color:#f4f2ec;text-transform:uppercase;background:#0a0a0b;padding:6px 10px;}
+.dA .lex{background:#0a0a0b;color:#f4f2ec;padding:34px 40px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:40px;}
+.dA .lex .tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#0fae8f;display:flex;align-items:center;gap:9px;}
+.dA .lex .tag::before{content:'';width:7px;height:7px;border-radius:50%;background:#0fae8f;box-shadow:0 0 0 4px rgba(15,174,143,.22);}
+.dA .lex h3{font-size:40px;margin:8px 0 0;letter-spacing:-.03em;font-weight:600;}
+.dA .lex h3 .arrow{color:#0fae8f;}
+.dA .lex .desc{font-size:17px;line-height:1.45;color:#b9b8b1;max-width:560px;}
+.dA .lex .chips{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;max-width:300px;}
+.dA .lex .chip{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;border:1px solid #3a3a36;border-radius:999px;padding:7px 13px;color:#e7e6df;}
+</style>
+<div class="dA">
+  <div class="topbar"><span><span class="dot"></span>AHSEN NAZIR</span><span>PORTFOLIO &rsquo;26 — AI ENGINEER</span></div>
+  <div class="hero">
+    <div class="left">
+      <div class="eyebrow">AI Engineer · 5+ years · Computer Vision / NLP / GenAI</div>
+      <h1 class="name">Ahsen<br/><em>Nazir</em></h1>
+      <p class="bio">I design, deploy, and scale production-grade AI systems — from end-to-end vision pipelines to LLM-powered applications and automation.</p>
+      <div class="meta">
+        <span><b>5+</b>Years</span>
+        <span><b>20+</b>Models shipped</span>
+        <span><b>MSc</b>PIEAS · AI</span>
+      </div>
+    </div>
+    <div class="right"><div class="photo"></div><div class="ph-cap">[ your photo — B&amp;W ]</div></div>
+  </div>
+  <div class="lex">
+    <div class="tag">Latest Release</div>
+    <div>
+      <h3>LexForge <span class="arrow">&#8599;</span></h3>
+      <p class="desc">[Placeholder] An AI engine that turns dense legal &amp; technical documents into structured, queryable intelligence — OCR-free, private, production-ready.</p>
+    </div>
+    <div class="chips"><span class="chip">OCR-free parsing</span><span class="chip">LLM Q&amp;A</span><span class="chip">Self-hosted</span></div>
+  </div>
+</div>`;
+
+/* ============================== DIRECTION B — FUTURISTIC DARK ============================== */
+const dirB = `
+<style>
+.dB{position:absolute;inset:0;background:#080809;color:#f0efe9;font-family:'Space Grotesk',sans-serif;overflow:hidden;}
+.dB .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:64px 64px;}
+.dB .ring{position:absolute;width:780px;height:780px;border-radius:50%;border:1px solid rgba(15,200,165,.35);top:-150px;right:-180px;box-shadow:0 0 120px rgba(15,200,165,.12) inset,0 0 80px rgba(15,200,165,.08);}
+.dB .ring.r2{width:560px;height:560px;top:-40px;right:-70px;border-color:rgba(15,200,165,.18);}
+.dB .glow{position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(15,200,165,.22),transparent 65%);top:-120px;right:-120px;filter:blur(20px);}
+.dB .topbar{position:relative;display:flex;justify-content:space-between;align-items:center;padding:28px 46px;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#7e8a86;}
+.dB .topbar .live{color:#13c8a5;}
+.dB .topbar nav{display:flex;gap:26px;}
+.dB .body{position:relative;padding:44px 46px 0;display:grid;grid-template-columns:1.4fr 1fr;gap:30px;}
+.dB .eyebrow{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:#13c8a5;margin-bottom:24px;}
+.dB .name{font-size:128px;line-height:.9;font-weight:700;letter-spacing:-.045em;margin:0;}
+.dB .name .t{color:#13c8a5;text-shadow:0 0 38px rgba(15,200,165,.4);}
+.dB .bio{margin-top:30px;max-width:520px;font-size:20px;line-height:1.55;color:#a9b1ad;}
+.dB .meta{margin-top:40px;display:flex;gap:14px;}
+.dB .meta .m{border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:14px 20px;background:rgba(255,255,255,.02);}
+.dB .meta .m b{display:block;font-size:26px;font-weight:700;letter-spacing:-.02em;}
+.dB .meta .m span{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7e8a86;}
+.dB .portrait{position:relative;height:430px;border-radius:18px;overflow:hidden;border:1px solid rgba(15,200,165,.25);align-self:start;}
+.dB .portrait .photo{position:absolute;inset:0;background:repeating-linear-gradient(45deg,#16161a,#16161a 11px,#1d1d22 11px,#1d1d22 22px);filter:grayscale(1) contrast(1.1);}
+.dB .portrait .tint{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,8,9,.1),#0a3b33);mix-blend-mode:color;opacity:.85;}
+.dB .portrait .tint2{position:absolute;inset:0;background:#13c8a5;mix-blend-mode:overlay;opacity:.28;}
+.dB .portrait .cap{position:absolute;left:16px;bottom:14px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;color:#bfeee5;text-transform:uppercase;}
+.dB .lex{position:relative;margin:40px 46px;border:1px solid rgba(15,200,165,.4);border-radius:18px;background:linear-gradient(135deg,rgba(15,200,165,.08),rgba(8,8,9,.4));padding:30px 34px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center;box-shadow:0 0 60px rgba(15,200,165,.1);}
+.dB .lex .l{}
+.dB .lex .tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#13c8a5;display:flex;align-items:center;gap:9px;margin-bottom:12px;}
+.dB .lex .tag::before{content:'';width:8px;height:8px;border-radius:50%;background:#13c8a5;box-shadow:0 0 0 4px rgba(19,200,165,.25);animation:pulseB 2s infinite;}
+@keyframes pulseB{0%,100%{box-shadow:0 0 0 4px rgba(19,200,165,.25);}50%{box-shadow:0 0 0 8px rgba(19,200,165,.05);}}
+.dB .lex h3{font-size:42px;margin:0;letter-spacing:-.03em;font-weight:700;}
+.dB .lex .desc{margin-top:10px;font-size:16px;line-height:1.5;color:#a9b1ad;max-width:620px;}
+.dB .lex .hi{display:flex;flex-direction:column;gap:9px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#cfe9e3;}
+.dB .lex .hi span::before{content:'> ';color:#13c8a5;}
+</style>
+<div class="dB">
+  <div class="grid"></div><div class="glow"></div><div class="ring"></div><div class="ring r2"></div>
+  <div class="topbar"><span>AHSEN_NAZIR // AI.ENG</span><nav><span>WORK</span><span>PROJECTS</span><span>SKILLS</span><span class="live">● ONLINE</span></nav></div>
+  <div class="body">
+    <div>
+      <div class="eyebrow">// designing intelligent systems</div>
+      <h1 class="name">AI that<br/>ships to <span class="t">prod.</span></h1>
+      <p class="bio">I'm Ahsen — an AI Engineer with 5+ years building end-to-end pipelines across Computer Vision, NLP, and Generative AI.</p>
+      <div class="meta">
+        <div class="m"><b>5+</b><span>Years</span></div>
+        <div class="m"><b>20+</b><span>Models</span></div>
+        <div class="m"><b>CV·NLP·GenAI</b><span>Focus</span></div>
+      </div>
+    </div>
+    <div class="portrait"><div class="photo"></div><div class="tint"></div><div class="tint2"></div><div class="cap">[ your photo — duotone ]</div></div>
+  </div>
+  <div class="lex">
+    <div class="l">
+      <div class="tag">Latest Release · Live</div>
+      <h3>LexForge</h3>
+      <p class="desc">[Placeholder] An AI engine that turns dense legal &amp; technical documents into structured, queryable intelligence.</p>
+    </div>
+    <div class="hi"><span>OCR-free parsing</span><span>LLM-powered Q&amp;A</span><span>Self-hosted &amp; private</span></div>
+  </div>
+</div>`;
+
+/* ============================== DIRECTION C — BRUTALIST MAGAZINE ============================== */
+const dirC = `
+<style>
+.dC{position:absolute;inset:0;background:#efece4;color:#0a0a0b;font-family:'Space Grotesk',sans-serif;overflow:hidden;display:flex;flex-direction:column;}
+.dC .top{display:flex;justify-content:space-between;align-items:flex-end;padding:22px 38px 14px;border-bottom:3px solid #0a0a0b;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;}
+.dC .top .iss{font-size:11px;opacity:.6;}
+.dC .hero{display:grid;grid-template-columns:1fr 360px;border-bottom:3px solid #0a0a0b;}
+.dC .headcol{padding:20px 38px 28px;border-right:3px solid #0a0a0b;display:flex;flex-direction:column;justify-content:space-between;}
+.dC .kicker{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.6;}
+.dC .big{font-family:'Anton',sans-serif;font-weight:400;font-size:168px;line-height:.82;letter-spacing:.005em;text-transform:uppercase;margin:8px 0;}
+.dC .big .o{-webkit-text-stroke:2.5px #0a0a0b;color:transparent;}
+.dC .subrow{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-top:1px solid #0a0a0b;padding-top:16px;}
+.dC .subrow p{margin:0;font-size:18px;line-height:1.45;max-width:560px;}
+.dC .subrow .nums{font-family:'JetBrains Mono',monospace;font-size:12px;text-align:right;text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;opacity:.7;}
+.dC .photocol{position:relative;background:#0a0a0b;overflow:hidden;}
+.dC .photocol .photo{position:absolute;inset:0;background:repeating-linear-gradient(45deg,#16161a,#16161a 11px,#1d1d22 11px,#1d1d22 22px);filter:grayscale(1) contrast(1.35) brightness(1.05);}
+.dC .photocol .cap{position:absolute;left:14px;bottom:12px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;color:#efece4;text-transform:uppercase;}
+.dC .lex{flex:1;display:grid;grid-template-columns:1fr 1.1fr;}
+.dC .lex .blk{background:#0a0a0b;color:#efece4;padding:30px 38px;display:flex;flex-direction:column;justify-content:center;}
+.dC .lex .tag{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#1bbf9d;}
+.dC .lex .lf{font-family:'Anton',sans-serif;font-size:92px;line-height:.86;text-transform:uppercase;margin:10px 0 0;color:#1bbf9d;}
+.dC .lex .desc{margin-top:14px;font-size:16px;line-height:1.5;color:#c3c2bb;max-width:430px;}
+.dC .lex .list{padding:30px 38px;display:flex;flex-direction:column;justify-content:center;gap:0;}
+.dC .lex .list .it{display:grid;grid-template-columns:46px 1fr;gap:8px;padding:16px 0;border-bottom:1px solid #0a0a0b;align-items:baseline;}
+.dC .lex .list .it:first-child{border-top:1px solid #0a0a0b;}
+.dC .lex .list .n{font-family:'JetBrains Mono',monospace;font-size:13px;opacity:.5;}
+.dC .lex .list .t{font-size:22px;font-weight:600;letter-spacing:-.01em;}
+.dC .lex .list .t small{display:block;font-size:13px;font-weight:400;opacity:.6;letter-spacing:0;margin-top:3px;font-family:'JetBrains Mono',monospace;}
+</style>
+<div class="dC">
+  <div class="top"><span>AHSEN NAZIR — AI ENGINEER</span><span class="iss">SELECTED WORK / VOL.26 / ISLAMABAD</span></div>
+  <div class="hero">
+    <div class="headcol">
+      <div>
+        <div class="kicker">Computer Vision · NLP · Generative AI</div>
+        <div class="big">Ahsen<br/><span class="o">Nazir</span></div>
+      </div>
+      <div class="subrow">
+        <p>Five years designing, deploying, and scaling production-grade AI — vision pipelines, LLM apps, and automation that actually ships.</p>
+        <div class="nums">EST. 2020<br/>20+ MODELS<br/>MSC · PIEAS</div>
+      </div>
+    </div>
+    <div class="photocol"><div class="photo"></div><div class="cap">[ your photo — high contrast ]</div></div>
+  </div>
+  <div class="lex">
+    <div class="blk">
+      <div class="tag">● Latest Release</div>
+      <div class="lf">LexForge</div>
+      <p class="desc">[Placeholder] An AI engine that turns dense legal &amp; technical documents into structured, queryable intelligence.</p>
+    </div>
+    <div class="list">
+      <div class="it"><span class="n">01</span><span class="t">OCR-free parsing<small>LayoutLM + DONUT, no preprocessing</small></span></div>
+      <div class="it"><span class="n">02</span><span class="t">LLM-powered Q&amp;A<small>ask documents in plain language</small></span></div>
+      <div class="it"><span class="n">03</span><span class="t">Self-hosted &amp; private<small>runs entirely on your hardware</small></span></div>
+    </div>
+  </div>
+</div>`;
+
+function Frame({ html }) {
+  return <div style={{ position: 'absolute', inset: 0 }} dangerouslySetInnerHTML={{ __html: html }} />;
+}
+
+function App() {
+  return (
+    <DesignCanvas>
+      <DCSection id="dirs" title="Hero + LexForge — 3 directions" subtitle="Same content & palette, three personalities. Pick one (or mix) and I'll build the full interactive site.">
+        <DCArtboard id="a" label="A · Editorial Split" width={1440} height={1180}><Frame html={dirA} /></DCArtboard>
+        <DCArtboard id="b" label="B · Futuristic Dark" width={1440} height={1180}><Frame html={dirB} /></DCArtboard>
+        <DCArtboard id="c" label="C · Brutalist Magazine" width={1440} height={1180}><Frame html={dirC} /></DCArtboard>
+      </DCSection>
+    </DesignCanvas>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

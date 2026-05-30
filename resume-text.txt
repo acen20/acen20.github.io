@@ -1,0 +1,87 @@
+AHSEN NAZIR
+AI Software Engineer
+Ó +92 333 8539340 R ahsenmailbox@gmail.com ¯ linkedin.com/in/ahsennazir/
+ https://github.com/acen20 v Pakistan ½ Islamabad
+PERSONAL STATEMENT
+AI Engineer with 5+ years of experience building and deploying production grade AI systems across Computer Vision,
+NLP, and Generative AI. Specialized in LLM systems, RAG pipelines, multi-agent workflows, workflows and scalable
+AI automation in applied and enterprise environments. Experienced in international deployments across China, US,
+and Southeast Asia.
+Dev interests: NLP, GenAI, Computer Vision
+CORE TECHNICAL SKILLS
+Artificial Intelligence & ML: Computer Vision, NLP, Generative AI, LLMs, Multimodal AI, Model Fine-tuning
+LLM Systems Engineering: Retrieval-Augmented Generation (RAG), Prompt Engineering & Optimization, AI Evaluation
+(Evals), Inference optimization with LoRA/qLoRA, Autonomous Agents, Vector Databases (FAISS / Milvus/Chroma / etc.),
+Context Window Management, LLM Deployment & Monitoring, Multilingual LLM Expertise: Urdu, Arabic, English, Russian
+Frameworks & Libraries: PyTorch, HuggingFace Transformers, Detectron2, Stable Diffusion, LangChain
+Backend & APIs: FastAPI, REST APIs, Celery, RabbitMQ, Redis, Ray
+MLOps & DevOps: Docker, Docker Compose, Linux, Multi-GPU Training, Weights & Biases
+Databases & Cloud: PostgreSQL, SQL, AWS, GCP, Azure
+Languages: Python, C++, SQL
+PROFESSIONAL EXPERIENCE
+National Centre for Physics Islamabad, Pakistan
+Assistant Manager (Artificial Intelligence), Deep Learning Lab April 2023 – Apr 2026
+• Led production AI systems for document intelligence and LLM automation across 3 integrated systems in an applied
+research environment.
+• Designed and deployed RAG pipelines with embeddings and vector databases enabling semantic search over 10K+ docu-
+ments, improving retrieval accuracy and reducing latency.
+• Built multi-agent systems using n8n orchestrating 20+ step workflows for end-to-end automation, reducing manual effort
+by 30–50%.
+• Developed tool-using autonomous agents integrating 5+ external APIs for real-time decision-making and execution across
+dynamic workflows.
+• Implemented LLM evaluation and API orchestration systems with rate limiting, streaming, and reliability controls achieving
+99%+ production stability.
+Shenzhen AiMall Technology Co. Ltd. Shenzhen, China
+Intern Dec 2024 – February 2025
+• Developed Stable Diffusion-based image animation pipelines using pose and audio inputs across 3+ configurations.
+• Optimized ComfyUI workflows (FaceAlignment, MediaPipe, InsightFace), improving generation efficiency and output sta-
+bility.
+• Integrated vision and audio models for multimodal animation systems enabling synchronized generation across 2 modali-
+ties with real-time inference support.
+• Reduced memory usage by 50% via model offloading and compute optimization enabling large diffusion workflows on
+constrained GPUs.
+• Implemented multi-GPU DiT-style parallelization across 2 GPUs (T4, 1080Ti), improving throughput.
+Freelance (Upwork) Remote
+AI Developer Jun 2020 – Jun 2025
+• Deployed deep learning models on custom datasets supporting 1000+ concurrent inference requests under production
+workloads.
+• Built secure, rate-limited AI APIs with authentication and controlled model exposure.
+• Developed distributed AI systems using multi-threading and parallel execution for low-latency inference.
+• Designed 50+ reusable business logic modules across modular AI services enabling scalable system architecture.
+• Delivered end-to-end AI solutions for clients across USA, Japan, Malaysia, with production deployment and monitoring.
+
+-- 1 of 2 --
+
+EDUCATION
+Pakistan Institute of Engineering and Applied Sciences (PIEAS) Islamabad, Pakistan
+Masters of Science in Computer Science Feb 2021 – Nov 2022
+* CGPA: 3.65/4.00
+Bahria University Islamabad Campus (BUIC) Islamabad, Pakistan
+Bachelor of Science in Computer Science Sep 2015 – Feb 2020
+PROJECTS
+Portfolio
+WORKSHOPS AND TRAININGS
+49th International Nathiagali Summer College (INSC) 2024
+– Organized by Pakistan Atomic Energy Commission (PAEC), focusing on AI and Allied Disciplines
+Workshop on Cyber Weapons and Malware Analysis 2024
+– Institute of Space Technology (IST)
+Young Officers Orientation Course 2023
+– Pakistan Centre of Excellence for Nuclear Security (PCENS)
+2-Month AI Fellowship 2022-2023
+– Organized by Artificial Intelligence Technology Centre. Secured 1st Position in the batch
+Organized 4x National Artificial Intelligence Seminar (NAIS) 2022-2025
+– CoE AITeC, National Centre for Physics (NCP)
+ACADEMIC HONORS, PRIZES, AND FELLOWSHIPS
+IT Endowment Scholarship 2021
+– Awarded a fully funded scholarship for M.S. studies at Pakistan Institute of Engineering and Applied Sciences
+(PIEAS), sponsored by the institute.
+AI Fellowship – National Centre for Physics 2023
+– Ranked 1st in cohort. Selected for a 2-month Artificial Intelligence fellowship leading to a job offer at the National
+Centre for Physics.
+Poster Competition Winner – ISAIMP 2023 2023
+– Secured 2nd Prize in the poster competition at the International Symposium on Artificial Intelligence, Medical
+Imaging, and Pattern Recognition (ISAIMP-2023).
+– Poster Title: “Precision Agriculture: Wheat Crop Classification and Yield Estimation”.
+
+-- 2 of 2 --
+

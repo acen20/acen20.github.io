@@ -168,7 +168,7 @@ window.PF = {
       { id:"pursuit-3", src:"assets/pursuit-3.png", cap:"On the field" },
       { id:"pursuit-4", src:"assets/pursuit-4.png", cap:"Outdoors" },
       { id:"pursuit-5", src:"assets/pursuit-5.png", cap:"Off-grid" },
-      { id:"pursuit-6", src:"assets/pursuit-6.png", cap:"On stage" },
+      { id:"pursuit-6", src:"assets/pursuit-6.png", cap:"In the Zone" },
       { id:"pursuit-7", src:"assets/pursuit-7.png", cap:"Travels" },
     ],
   },

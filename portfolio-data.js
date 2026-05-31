@@ -191,7 +191,7 @@ window.PF = {
   ],
 
   contact: {
-    email: "ahsenmailbox@gmail.com",
+    email: "ahsen@ncorplabs.com",
     socials: [
       { i:"fab fa-linkedin-in", url:"https://www.linkedin.com/in/ahsennazir/", label:"LinkedIn" },
     ],
